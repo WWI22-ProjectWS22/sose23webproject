@@ -3,7 +3,7 @@ import fsPromises from 'fs/promises';
 import path from 'path'
 import {log} from "next/dist/server/typescript/utils";
 export async function getStaticProps() {
-    const filePath = path.join(process.cwd(), '/data.json');
+    const filePath = path.join(process.cwd(), '/public/data.json');
     const jsonData = await fsPromises.readFile(filePath);
     const objectData = JSON.parse(jsonData);
 
@@ -13,11 +13,10 @@ export async function getStaticProps() {
 }
 export default async function TestPage() {
     const data = await getStaticProps();
-    console.log(data);
     return (
         <div>
             <button className={"btn btn-primary mb-2"}>{data.props.name}</button>
-            <button>test3</button>
+            <button>test3 {data.props.age}</button>
         </div>
     )
 }
