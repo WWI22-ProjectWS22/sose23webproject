@@ -11,12 +11,16 @@ export const metadata = {
   description: 'SoSe23 WebProject',
 }
 
-export default function RootLayout({ children }) {
+export default function RootLayout({children}) {
   return (
     <html lang="de">
-      <Header/>
-      <body>{children}</body>
-      <Footer/>
+
+      <body>
+        <Header/>
+        {children}
+        <Footer/>
+      </body>
+
     </html>
   )
 }
