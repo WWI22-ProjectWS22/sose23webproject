@@ -13,7 +13,10 @@ export const metadata = {
 
 export default function RootLayout({children}) {
   return (
-    <html lang="de" data-bs-theme={"auto"}>
+    <html lang="de">
+      <head>
+        <meta name="color-scheme" content="light dark"/>
+      </head>
       <body>
         <Header/>
         {children}
