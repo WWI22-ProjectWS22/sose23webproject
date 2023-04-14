@@ -28,8 +28,12 @@
         color: white;
     }
 
-    .privHeader {
-        background-color: rgba(0, 0, 0, 1.0);
+    #logoBackground {
+        background-color: black;
+    }
+
+    #footerBackground {
+        background-color: black;
     }
 
     .navbar-nav {
@@ -49,4 +53,34 @@
        background-color: white;
        box-shadow: 0 0 0 1px #d3a41b;
    }
+
+   #stickyNavbar {
+    position: absolute; 
+    left: 0; right: 0; margin-left: auto; margin-right: auto;
+    z-index: 1; 
+   }
+
+   #headerUnderlay {
+    width: 100%;
+    height: 85px;
+    background-color: black;
+   }
+
+   #stylingLine {
+    width: 100%;
+    height: 6px;
+    box-shadow: inset 0 0 0 1px #d3a41b;
+    background-color: white;
+   }
+
+   #impressumsLink {
+    color: white;
+    }
+    
+    #impressumsLink:visited {
+    color: white;
+    }
+
+   
+
 }

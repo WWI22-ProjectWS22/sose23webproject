@@ -18,6 +18,7 @@ export default async function Home() {
   metadata.title = "Homepage";
   bodyid.id = "homepage";
   return (
+    <>
       <div>
         <div>
             <h1>{data.props.title}</h1>
@@ -27,5 +28,6 @@ export default async function Home() {
             <img src={"/images/root/testbackground.jpg"}/>
         </div>
     </div>
+    </>
   )
 }
