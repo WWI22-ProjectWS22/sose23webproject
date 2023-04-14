@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Footer() {
     const year = new Date();
     return (
-        <footer className={"py-3"}>
+        <footer className={"py-3 privHeader"}>
             <div className={"row row-cols-3"}>
                 <div className={"col justify-content-center px-5"}>
                     <div className={"row row-cols-2"}>

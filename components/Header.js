@@ -4,6 +4,7 @@ import Image from "next/image";
 export default function Header() {
     return (
             <>
+                <div className="privHeader">
                 <div className="container pt-3">
                     <div className="row row-cols-2 row-cols-md-3">
                         <div className="col-4 col-md-1 justify-content-center">
@@ -15,8 +16,10 @@ export default function Header() {
                         <div className="col d-none d-md-inline"></div>
                     </div>
                 </div>
+                </div>
 
-                <div className="container py-3 sticky-md-top">
+                <div className="privHeader sticky-md-top">
+                <div className="container py-3">
                     <nav className="navbar navbar-expand navbar-light bg-light rounded-pill">
                         <div className="container-fluid">
                             <ul className="navbar-nav justify-content-evenly w-100">
@@ -38,6 +41,7 @@ export default function Header() {
                             </ul>
                         </div>
                     </nav>
+                </div>
                 </div>
             </>
 
