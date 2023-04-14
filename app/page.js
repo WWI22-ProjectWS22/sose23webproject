@@ -23,8 +23,6 @@ export default async function Home() {
             <h1>{data.props.title}</h1>
             <br/>
             <p>{data.props.content}</p>
-            <br/>
-            <img src="/images/root/testbackground.jpg"/>
         </div>
     </div>
   )
