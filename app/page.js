@@ -2,6 +2,7 @@ import Link from "next/link";
 import fsPromises from 'fs/promises';
 import path from 'path'
 import {log} from "next/dist/server/typescript/utils";
+import { bodyid, metadata } from "./layout";
 export async function getStaticProps() {
     const filePath = path.join(process.cwd(), '/public/content/root/content1.json');
     const jsonData = await fsPromises.readFile(filePath);
@@ -14,6 +15,8 @@ export async function getStaticProps() {
 
 export default async function Home() {
   const data = await getStaticProps();
+  metadata.title = "Homepage";
+  bodyid.id = "homepage";
   return (
       <div>
         <div>

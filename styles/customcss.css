@@ -2,6 +2,7 @@
     
     body{
         background-image: url("../public/images/root/testbackground.jpg");
+        background-size: cover !important;
         color: black;
     }
     
@@ -18,6 +19,7 @@
 
     body {
         background-image: url("../public/images/root/testbackground.jpg");
+        background-size: cover !important;
         color: white;
     }
 
