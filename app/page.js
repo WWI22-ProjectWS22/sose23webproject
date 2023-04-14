@@ -4,7 +4,7 @@ import path from 'path'
 import {log} from "next/dist/server/typescript/utils";
 import { bodyid, metadata } from "./layout";
 export async function getStaticProps() {
-    const filePath = path.join(process.cwd(), '/public/content/root/content1.json');
+    const filePath = path.join(process.cwd(), '/public/content/root/content2.json');
     const jsonData = await fsPromises.readFile(filePath);
     const objectData = JSON.parse(jsonData);
 
@@ -26,7 +26,6 @@ export default async function Home() {
             <br/>
             <img src="/images/root/testbackground.jpg"/>
         </div>
-        
     </div>
   )
 }

@@ -23,7 +23,7 @@
 @media (prefers-color-scheme: dark) {
 
     body {
-        background-image: url("../public/images/root/testbackground.jpg");
+        background-color: black;
         background-size: cover !important;
         color: white;
     }
@@ -44,5 +44,8 @@
     .img-fluid {
         box-shadow: 0 0 0 1px #d3a41b;
     }
-      
+   #footerImg{
+       background-color: white;
+       box-shadow: 0 0 0 1px #d3a41b;
+   }
 }

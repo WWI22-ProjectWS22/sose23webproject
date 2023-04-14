@@ -16,6 +16,7 @@ export const bodyid ={
 }
 
 export default function RootLayout({children}) {
+    metadata.title = "test";
   return (
       <html lang="de">
         <head>

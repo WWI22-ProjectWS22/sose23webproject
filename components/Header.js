@@ -6,13 +6,11 @@ export default function Header() {
             <>
                 <div className="container pt-3">
                     <div className="row row-cols-2 row-cols-md-3">
-                        <div className="col-md-1">
-                        <img className="img-fluid rounded" src="/images/root/RCDlogoWT.webp" alt="Logo"/>
-                        
-                        
+                        <div className="col-4 col-md-1 d-flex justify-content-center">
+                            <Image className="img-fluid rounded" src="/images/root/RCDlogoWT.webp" alt="Logo" width={100}   height={100}/>
                         </div>
                         <div className="col">
-                        <h3>Royale Chocolate <br/> Design</h3>
+                            <h3>Royale Chocolate <br/> Design</h3>
                         </div>
                         <div className="col d-none d-md-inline"></div>
                     </div>
