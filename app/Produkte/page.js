@@ -1,22 +1,38 @@
-// Fetching data from the JSON file
 import fsPromises from 'fs/promises';
-import path from 'path'
-import {log} from "next/dist/server/typescript/utils";
+import path from 'path';
+import Card from '@/components/card';
+
+
 export async function getStaticProps() {
-    const filePath = path.join(process.cwd(), '/public/data.json');
+    const filePath = path.join(process.cwd(), '/public/content/products/product.json');
     const jsonData = await fsPromises.readFile(filePath);
     const objectData = JSON.parse(jsonData);
-
+    const amount = objectData.entities.length;
     return {
-        props: objectData
-    }
-}
-export default async function TestPage() {
-    const data = await getStaticProps();
+      props: {
+        entities: objectData.entities,
+      },
+      amount,
+    };
+  }
+
+  
+  
+export default async function Produkte() {
+
+    let entities;
+    await getStaticProps().then((response) => (entities = response));
+
+    const counter = entities.amount;
+    const entityList = entities.props.entities.slice(0, counter);
+
     return (
-        <div>
-            <button className={"btn btn-primary mb-2"}>{data.props.name}</button>
-            <button>test3 {data.props.age}</button>
+      <> 
+        <div className="row row-cols-2 row-cols-md-3">
+          {entityList.map((entity) => (
+            <Card key={entity.name} entity={entity} />
+          ))}
         </div>
-    )
+      </>
+    );
 }
