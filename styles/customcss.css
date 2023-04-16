@@ -24,7 +24,7 @@
 
     body {
         background-color: #1e1614;
-        background-size: cover !important;
+        background-size: cover;
         color: white;
     }
 
@@ -81,6 +81,8 @@
     color: white;
     }
 
-   
+   .card {
+    background-color: rgba(255, 255, 255, 0.4);
+   }
 
 }
