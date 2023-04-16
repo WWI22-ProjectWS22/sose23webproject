@@ -18,9 +18,9 @@ export const bodyid ={
 export default function RootLayout({children}) {
     metadata.title = "test";
   return (
-      <html lang="de">
+      <html lang={"de"}>
         <head>
-          <meta name="color-scheme" content="light dark"/>
+          <meta name={"color-scheme"} content={"light dark"}/>
           <title>Homepage</title>
         </head>
         <body id = {bodyid.id}>
