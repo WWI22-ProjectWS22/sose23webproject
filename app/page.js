@@ -65,7 +65,14 @@ export default async function Home() {
           ))}
       </div>
 
-      <div>cutoff</div>
+      <div className={"row"}>
+      <Image
+              src={"/images/root/cutoff.png"}
+              className={"col-12 img-fluid"}
+              width={100}
+              height={100}
+            />
+      </div>
 
 
       <div className={"row row-cols-1 row-cols-md-3"}>
