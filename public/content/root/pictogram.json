@@ -1,0 +1,16 @@
+{
+    "entities":[
+        {
+        "name": "Individuell",
+        "description": "Egal ob Weihnachten, Valentinstag oder einfach individuell! Treten Sie mit uns in Kontakt und wir suchen gemeinsam Ihre persönliche Verpackung aus!"
+        },
+        {
+        "name": "Handgefertigt",
+        "description": "Unsere Konditoren haben bisher jede Praline in ihren Händen gehalten. Nicht zuletzt um jede einzelne zu einem einzigartigen Erlebnis zu machen!"
+        },
+        {
+        "name": "Nachhaltig",
+        "description": "Unsere Konditoren haben bisher jede Praline in ihren Händen gehalten. Nicht zuletzt um jede einzelne zu einem einzigartigen Erlebnis zu machen!"
+        }
+    ]   
+}

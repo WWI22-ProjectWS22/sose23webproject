@@ -5,8 +5,23 @@ import path from 'path'
 import {log} from "next/dist/server/typescript/utils";
 import { bodyid, metadata } from "./layout";
 import Productcard from "@/components/productcard";
+import Pictogram from "@/components/pictogram";
 
+//function pictogram
+export async function getPictogram() {
+  const filePath = path.join(process.cwd(), '/public/content/root/pictogram.json');
+  const jsonData = await fsPromises.readFile(filePath);
+  const objectData = JSON.parse(jsonData);
+  const amount = objectData.entities.length;
+  return {
+    props: {
+      entities: objectData.entities,
+    },
+    amount,
+  };
+}
 
+//function products
 export async function getStaticProps() {
   const filePath = path.join(process.cwd(), '/public/content/products/product.json');
   const jsonData = await fsPromises.readFile(filePath);
@@ -24,6 +39,12 @@ export default async function Home() {
   metadata.title = "Homepage";
   bodyid.id = "homepage";
 
+  let pictogram;
+    await getPictogram()
+    .then((response) => (pictogram = response));
+
+    const pictogramList = pictogram.props.entities.slice(0,3);
+
   let entities;
     await getStaticProps()
     .then((response) => (entities = response));
@@ -35,8 +56,16 @@ export default async function Home() {
   return (
     <>
       <div>Placeholder Homescreen Video</div>
+
       <div className={"mt-3"} id={"goldenLine"}></div>
-      <div>Pictogramme</div>
+
+      <div className={"row row-cols-1 row-cols-md-3 text-center pt-3"} id={"pictogram"}>
+        {pictogramList.map((pictogram) => (
+            <Pictogram key={pictogram.name} pictogram={pictogram} />
+          ))}
+      </div>
+      
+      <div>cutoff</div>
 
 
       <div className={"row row-cols-1 row-cols-md-3"}>
