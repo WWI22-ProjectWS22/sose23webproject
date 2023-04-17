@@ -64,7 +64,7 @@ export default async function Home() {
             <Pictogram key={pictogram.name} pictogram={pictogram} />
           ))}
       </div>
-      
+
       <div>cutoff</div>
 
 
@@ -75,7 +75,7 @@ export default async function Home() {
       </div>
       <div className={"row text-center justify-content-center"}>
         <div className={"col-md-4"}>
-          <Link href={"/Produkte"} id={"homepageToProductLink"}>
+          <Link href={"/Produkte"} id={"homepageLink"}>
           <div className={"card mb-3"} id={"homepageFakeButton"}>
             <h4 className={"my-0 fw-normal"}>mehr</h4>
           </div>
