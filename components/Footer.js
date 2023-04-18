@@ -9,7 +9,17 @@ export default function Footer() {
                 <div className={"row row-cols-3"}>
                     <div className={"col justify-content-center px-5"}>
                         <div className={"row row-cols-2"}>
-                            <Image className={"col-8 col-md-1 img-fluid rounded"} id={"footerImg"} src={"/images/root/Schloss.png"} alt={"Logo"} height={100} width={100}/>
+                            <div className={"col-8 col-md-1 px-0 text-center"}>
+                            <Image 
+                            className={"img-fluid rounded"}
+                            id={"footerImg"} 
+                            src={"/images/root/RCDlogoWT.webp"} 
+                            alt={"Logo"} 
+                            height={100} 
+                            width={100}
+                            style={{height: "30px", width:"auto"}}
+                            />
+                            </div>
                             <h5 className={"col-md-11 d-none d-md-inline"}>Royale Chocolate Design</h5>
                         </div>
                     </div>

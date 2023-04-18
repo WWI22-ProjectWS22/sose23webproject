@@ -28,12 +28,12 @@
         color: white;
     }
 
-    #logoBackground {
-        background-color: black;
+    #headerBackground {
+        background-color: #141414;
     }
 
     #footerBackground {
-        background-color: black;
+        background-color: #141414;
     }
 
     .navbar-nav {
@@ -50,7 +50,6 @@
     }
 
    #footerImg {
-       background-color: white;
        box-shadow: 0 0 0 1px #d3a41b;
    }
 
@@ -63,7 +62,7 @@
    #headerUnderlay {
     width: 100%;
     height: 85px;
-    background-color: black;
+    background-color:  #141414;
    }
 
    #stylingLine {

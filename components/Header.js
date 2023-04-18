@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Header() {
     return (
             <>
-                <div id={"logoBackground"}>
+                <div id={"headerBackground"}>
                     <div className={"container pt-3 pb-3 pb-md-0"}>
                         <div className={"row row-cols-2 row-cols-md-3"}>
                             <div className={"col-4 col-md-1 d-flex justify-content-center"}>

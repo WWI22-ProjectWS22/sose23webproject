@@ -55,9 +55,16 @@ export default async function Home() {
 
   return (
     <>
-      <div>Placeholder Homescreen Video</div>
+      <div className={"pb-3"} id={"headerBackground"}>
+      <Image
+        src={"/images/root/PlaceholderVideo.png"}
+        className={"img-fluid w-100"}
+        width={100}
+        height={100}
+      />
+      </div>
 
-      <div className={"mt-3"} id={"goldenLine"}></div>
+      <div id={"goldenLine"}></div>
 
       <div className={"row row-cols-1 row-cols-md-3 text-center pt-3"} id={"pictogram"}>
         {pictogramList.map((pictogram) => (
@@ -67,7 +74,7 @@ export default async function Home() {
 
       <div className={"row"}>
       <Image
-              src={"/images/root/cutoff.png"}
+              src={"/images/root/cutoff.svg"}
               className={"col-12 img-fluid"}
               width={100}
               height={100}
