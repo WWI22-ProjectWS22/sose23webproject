@@ -1,6 +1,6 @@
 import fsPromises from 'fs/promises';
 import path from 'path';
-import Card from '@/components/card';
+import Productcard from '@/components/productcard';
 
 
 export async function getStaticProps() {
@@ -28,10 +28,12 @@ export default async function Produkte() {
 
     return (
       <> 
-        <div className="row row-cols-2 row-cols-md-3">
-          {entityList.map((entity) => (
-            <Card key={entity.name} entity={entity} />
-          ))}
+        <div className={"container py-3"} id={"productBackground"}>
+          <div className={"row row-cols-1 row-cols-md-3"}>
+            {entityList.map((entity) => (
+              <Productcard key={entity.name} entity={entity} />
+            ))}
+          </div>
         </div>
       </>
     );

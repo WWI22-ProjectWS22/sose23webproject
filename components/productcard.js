@@ -4,27 +4,25 @@ import Image from "next/image";
 export default function Productcard({ entity }) {
   return (
     <>
-      <div className={"col"}>
-        <div className={"card mb-4 rounded-3 text-center"} id={"homepageCards"}>
-          <div className={"card-header py-3"}>
-            <h4 className={"my-0 fw-normal"}>{entity.name}</h4>
-          </div>
+      <div className={"col d-flex justify-content-center"}>
+        <div className={"card rounded-3 text-center shadow mb-3 w-50"} id={"productCard"}>
+          
+            <h4 className={"my-0 fw-normal mb-3"}>{entity.name}</h4>
+          
 
-          <div className={"card-body"}>
+          
             <Image
               src={"/images/products/" + entity.name + ".webp"}
-              className={"img-fluid"}
-              alt={"Bild von Kinderpraline"}
+              className={"img-fluid rounded mx-auto mb-3"}
+              alt={entity.name}
               width={100}
               height={100}
+              style={{height: "150px", width:"auto"}}
             />
-          </div>
+          <p>{entity.price}</p>
         </div>
-        <div className="text-center">
-          <p>{entity.price} pro Stück</p>
-        </div>
+        </div> 
         <div id={"goldenLine"} className={"d-block d-md-none mb-3"}></div>
-      </div>
     </>
   );
 }
