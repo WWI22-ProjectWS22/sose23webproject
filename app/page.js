@@ -90,7 +90,7 @@ export default async function Home() {
       <div className={"row text-center justify-content-center"}>
         <div className={"col-md-4"}>
           <Link href={"/Produkte"} id={"homepageLink"}>
-          <div className={"card mb-3"} id={"homepageFakeButton"}>
+          <div className={"card mb-3 mx-auto shadow w-75"} id={"homepageFakeButton"}>
             <h4 className={"my-0 fw-normal"}>mehr</h4>
           </div>
           </Link>

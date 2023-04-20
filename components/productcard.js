@@ -5,7 +5,7 @@ export default function Productcard({ entity }) {
   return (
     <>
       <div className={"col d-flex justify-content-center"}>
-        <div className={"card rounded-3 text-center shadow mb-3 w-50"} id={"productCard"}>
+        <div className={"card rounded-3 text-center shadow mb-3 w-75"} id={"productCard"}>
           
             <h4 className={"my-0 fw-normal mb-3"}>{entity.name}</h4>
           

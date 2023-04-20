@@ -19,6 +19,46 @@
         "name": "Süße",
         "description": "Beschreibung der Entität 4",
         "price": "400€"
+        },
+        {
+        "name": "Alleskönner",
+        "description": "Beschreibung der Entität 1",
+        "price": "100€"
+        },
+        {
+        "name": "Klassiker",
+        "description": "Beschreibung der Entität 2",
+        "price": "200€"
+        },
+        {
+        "name": "Royale Praline",
+        "description": "Beschreibung der Entität 3",
+        "price": "400€"
+        },
+        {
+        "name": "Süße",
+        "description": "Beschreibung der Entität 4",
+        "price": "400€"
+        },
+        {
+        "name": "Alleskönner",
+        "description": "Beschreibung der Entität 1",
+        "price": "100€"
+        },
+        {
+        "name": "Klassiker",
+        "description": "Beschreibung der Entität 2",
+        "price": "200€"
+        },
+        {
+        "name": "Royale Praline",
+        "description": "Beschreibung der Entität 3",
+        "price": "400€"
+        },
+        {
+        "name": "Süße",
+        "description": "Beschreibung der Entität 4",
+        "price": "400€"
         }
     ]
 }

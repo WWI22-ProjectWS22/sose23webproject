@@ -35,7 +35,7 @@ export default function Header() {
                                     <Link className={"nav-link"} href={"/Herstellung"}>Herstellung</Link>
                                 </li>
                                 <li className={"nav-item active"}>
-                                    <Link className={"nav-link"} href={"/Überuns"}>Über uns</Link>
+                                    <Link className={"nav-link"} href={"/Ueberuns"}>Über uns</Link>
                                 </li>
                                 <li className={"nav-item active"}>
                                     <Link className={"nav-link"} href={"/Kontakt"}>Kontakt</Link>
