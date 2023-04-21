@@ -28,7 +28,7 @@ export default async function Produkte() {
 
     return (
       <> 
-        <div className={"container py-3"} id={"productBackground"}>
+        <div className={"container py-3"} id={"pageBackground"}>
           <div className={"row row-cols-1 row-cols-md-3"}>
             {entityList.map((entity) => (
               <Productcard key={entity.name} entity={entity} />

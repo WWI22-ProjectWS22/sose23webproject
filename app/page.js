@@ -104,7 +104,7 @@ export default async function Home() {
         <div className={"row row-cols-2 row-cols-md-5 text-center mb-3"}>
           <div className={"col mb-3"}>
             <Image
-              src={"/images/root/Danilo.webp"}
+              src={"/images/ueberuns/Danilo Weber.webp"}
               className={"img-fluid"}
               alt={"Danilo Weber"}
               width={100}
@@ -114,7 +114,7 @@ export default async function Home() {
           </div>
           <div className={"col mb-3"}>
             <Image
-              src={"/images/root/Felix.webp"}
+              src={"/images/ueberuns/Felix Gebhardt.webp"}
               className={"img-fluid"}
               alt={"Felix Gebhardt"}
               width={100}
@@ -124,7 +124,7 @@ export default async function Home() {
           </div>
           <div className={"col mb-3"}>
             <Image
-              src={"/images/root/Kai.webp"}
+              src={"/images/ueberuns/Kai Faßbinder.webp"}
               className={"img-fluid"}
               alt={"Kai Faßbinder"}
               width={100}
@@ -134,7 +134,7 @@ export default async function Home() {
           </div>
           <div className={"col mb-3"}>
             <Image
-              src={"/images/root/Luca.webp"}
+              src={"/images/ueberuns/Luca Dvorak.webp"}
               className={"img-fluid"}
               alt={"Luca Dvorak"}
               width={100}
@@ -144,7 +144,7 @@ export default async function Home() {
           </div>
           <div className={"col d-none d-md-block mb-3"}>
             <Image
-              src={"/images/root/Michi.webp"}
+              src={"/images/ueberuns/Michaela Ohmeyer.webp"}
               className={"img-fluid"}
               alt={"Michaela Ohmeyer"}
               width={100}
@@ -154,7 +154,7 @@ export default async function Home() {
           </div>
           <div className={"col col-12 col-md-6 d-block d-md-none justify-content-center mb-3"}>
             <Image
-              src={"/images/root/Michi.webp"}
+              src={"/images/ueberuns/Michaela Ohmeyer.webp"}
               className={"img-fluid"}
               alt={"Michaela Ohmeyer"}
               width={100}
