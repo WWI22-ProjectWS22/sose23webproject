@@ -2,7 +2,7 @@ import fsPromises from 'fs/promises';
 import path from 'path';
 import Membercard from '@/components/membercard';
 
-export async function getStaticProps() {
+export async function getEmployee() {
     const filePath = path.join(process.cwd(), '/public/content/ueberuns/ueberuns.json');
     const jsonData = await fsPromises.readFile(filePath);
     const objectData = JSON.parse(jsonData);
@@ -18,7 +18,7 @@ export async function getStaticProps() {
 export default async function Ueberuns() {
 
     let entities;
-    await getStaticProps().then((response) => (entities = response));
+    await getEmployee().then((response) => (entities = response));
 
     const counter = entities.amount;
     const entityList = entities.props.entities.slice(0, counter);

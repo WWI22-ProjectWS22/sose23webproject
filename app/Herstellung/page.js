@@ -14,7 +14,7 @@ export async function getIntro() {
 }
 
 
-export async function getStaticProps() {
+export async function getManStep() {
     const filePath = path.join(process.cwd(), '/public/content/manufactoring/manufactoring.json');
     const jsonData = await fsPromises.readFile(filePath);
     const objectData = JSON.parse(jsonData);
@@ -34,7 +34,7 @@ export async function getStaticProps() {
 
 
   let entities;
-  await getStaticProps().then((response) => (entities = response));
+  await getManStep().then((response) => (entities = response));
   const counter = entities.amount;
   const entityList = entities.props.entities.slice(0, counter);
 

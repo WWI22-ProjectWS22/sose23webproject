@@ -3,7 +3,7 @@ import path from 'path';
 import Productcard from '@/components/productcard';
 
 
-export async function getStaticProps() {
+export async function getProductsFull() {
     const filePath = path.join(process.cwd(), '/public/content/products/product.json');
     const jsonData = await fsPromises.readFile(filePath);
     const objectData = JSON.parse(jsonData);
@@ -21,7 +21,7 @@ export async function getStaticProps() {
 export default async function Produkte() {
 
     let entities;
-    await getStaticProps().then((response) => (entities = response));
+    await getProductsFull().then((response) => (entities = response));
 
     const counter = entities.amount;
     const entityList = entities.props.entities.slice(0, counter);

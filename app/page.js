@@ -22,7 +22,7 @@ export async function getPictogram() {
 }
 
 //function products
-export async function getStaticProps() {
+export async function getProducts() {
   const filePath = path.join(process.cwd(), '/public/content/products/product.json');
   const jsonData = await fsPromises.readFile(filePath);
   const objectData = JSON.parse(jsonData);
@@ -46,7 +46,7 @@ export default async function Home() {
     const pictogramList = pictogram.props.entities.slice(0,3);
 
   let entities;
-    await getStaticProps()
+    await getProducts()
     .then((response) => (entities = response));
 
     const counter = entities.amount;
