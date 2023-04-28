@@ -1,6 +1,7 @@
 import fsPromises from 'fs/promises';
 import path from 'path';
 import Productcard from '@/components/productcard';
+import {metadata} from "@/app/layout";
 
 
 export async function getProductsFull() {
@@ -25,9 +26,11 @@ export default async function Produkte() {
 
     const counter = entities.amount;
     const entityList = entities.props.entities.slice(0, counter);
+    metadata.title ="Produkte";
 
     return (
-      <> 
+      <>
+        <title>{metadata.title}</title>
         <div className={"container py-3"} id={"pageBackground"}>
           <div className={"row row-cols-1 row-cols-md-3"}>
             {entityList.map((entity) => (

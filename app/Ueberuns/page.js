@@ -1,6 +1,7 @@
 import fsPromises from 'fs/promises';
 import path from 'path';
 import Membercard from '@/components/membercard';
+import {metadata} from "@/app/layout";
 
 export async function getEmployee() {
     const filePath = path.join(process.cwd(), '/public/content/ueberuns/ueberuns.json');
@@ -22,10 +23,11 @@ export default async function Ueberuns() {
 
     const counter = entities.amount;
     const entityList = entities.props.entities.slice(0, counter);
-
+    metadata.title = "Über Uns";
 
     return (
-        <> 
+        <>
+            <title>{metadata.title}</title>
             <div className={"container py-3"} id={"pageBackground"}>
                 <div className={"row row-cols-1 row-cols-md-3"}>
                 {entityList.map((entity) => (

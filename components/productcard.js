@@ -8,9 +8,7 @@ export default function Productcard({ entity }) {
         <div className={"card rounded-3 text-center shadow mb-3 w-75"} id={"productCard"}>
           
             <h4 className={"my-0 fw-normal mb-3"}>{entity.name}</h4>
-          
 
-          
             <Image
               src={"/images/products/" + entity.name + ".webp"}
               className={"img-fluid rounded mx-auto mb-3"}

@@ -2,6 +2,7 @@ import fsPromises from 'fs/promises';
 import path from 'path';
 import {log} from "next/dist/server/typescript/utils";
 import TextPictureComponent from '@/components/textpicturecomponent';
+import {metadata} from "@/app/layout";
 
 export async function getIntro() {
     const filePath = path.join(process.cwd(), '/public/content/manufactoring/introduction.json');
@@ -37,9 +38,10 @@ export async function getManStep() {
   await getManStep().then((response) => (entities = response));
   const counter = entities.amount;
   const entityList = entities.props.entities.slice(0, counter);
-
+  metadata.title = "Herstellung";
 return (
-    <> 
+    <>
+        <title>{metadata.title}</title>
         <div className={"container py-3"} id={"pageBackground"}>
         <div id={"goldenLine"} className={"mb-3"}></div>
         <div className={""}>

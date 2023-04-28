@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import "../styles/customcss.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import SiderBar from "@/components/siderBar";
 
 
 export const metadata = {
@@ -21,12 +22,15 @@ export default function RootLayout({children}) {
       <html lang={"de"}>
         <head>
           <meta name={"color-scheme"} content={"light dark"}/>
-          <title>Homepage</title>
         </head>
         <body id = {bodyid.id}>
           <Header/>
+          <SiderBar/>
           {children}
           <Footer/>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+                  integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+                  crossOrigin="anonymous"></script>
         </body>
 
       </html>
