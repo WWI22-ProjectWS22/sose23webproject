@@ -11,7 +11,7 @@ export default function FormButton() {
   }
 
   return (
-      <button className={"btn btn-primary mb-2"} onClick={handleClick}>Bestätigen</button>
+      <button className={"btn btn-primary mb-2"} onClick={handleClick} data-bs-toggle={"modal"} data-bs-target={"#responseModal"}>Bestätigen</button>
   );
 }
 

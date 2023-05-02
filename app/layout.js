@@ -1,5 +1,5 @@
 // add bootstrap css
-import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/css/bootstrap.css';
 // own css files here
 import "../styles/customcss.css";
 import Footer from "@/components/Footer";
