@@ -47,31 +47,31 @@ export default function Header() {
                 </div>
                 <div className={"d-inline d-md-block"} id={"headerUnderlay"}></div>
 
-                <div className={"row row-cols-2 d-md-none mt-3 text-center"}>
+                <div className={"row row-cols-1 d-md-none mt-3 text-center"}>
                     <div className={"col"}>
                         <Link href={"/Produkte"} id={"homepageLink"}>
-                        <div className={"card mb-3"} id={"navbarFakeButton"}>
+                        <div className={"card mb-3 rounded-pill"} id={"navbarFakeButton"}>
                             <h4 className={"my-0 fw-normal"}>Produkte</h4>
                         </div>
                         </Link>
                     </div>  
                     <div className={"col"}>
                         <Link href={"/Herstellung"} id={"homepageLink"}>
-                        <div className={"card mb-3"} id={"navbarFakeButton"}> 
+                        <div className={"card mb-3 rounded-pill"} id={"navbarFakeButton"}> 
                             <h4 className={"my-0 fw-normal"}>Herstellung</h4>
                         </div>
                         </Link>
                     </div> 
                     <div className={"col"}>
                         <Link href={"/uberuns"} id={"homepageLink"}>
-                        <div className={"card mb-3"} id={"navbarFakeButton"}>
+                        <div className={"card mb-3 rounded-pill"} id={"navbarFakeButton"}>
                             <h4 className={"my-0 fw-normal"}>Überuns</h4>
                         </div>
                         </Link>
                     </div> 
                     <div className={"col"}>
                         <Link href={"/Kontakt"} id={"homepageLink"}>
-                        <div className={"card mb-3"} id={"navbarFakeButton"}>
+                        <div className={"card mb-3 rounded-pill"} id={"navbarFakeButton"}>
                             <h4 className={"my-0 fw-normal"}>Kontakt</h4>
                         </div>
                         </Link>

@@ -33,13 +33,13 @@ export default function SiderBar(){
             <div className="position-fixed end-0 top-50 translate-middle-y d-none d-md-block z-1">
                 <div className="nav flex-column bg-light rounded-pill mx-4" id="stickyIconBar">
                     <Link className="nav-link my-1" href="#">
-                        <Image src="/images/root/basket2.svg" alt="Icon" width={size} height={size}/>
+                        <Image src="/images/root/icons/Shopping Cart 1.svg" alt="Icon" width={size} height={size}/>
                     </Link>
                     <Link className="nav-link my-1" href="#">
-                        <Image src="/images/root/basket2.svg" alt="Icon" width={size} height={size}/>
+                        <Image src="/images/root/icons/Mail Sign At.svg" alt="Icon" width={size} height={size}/>
                     </Link>
                     <Link className="nav-link my-1" href="#">
-                        <Image src="/images/root/basket2.svg" alt="Icon" width={size} height={size}/>
+                        <Image src="/images/root/icons/Interface Alert Alarm Bell 1.svg" alt="Icon" width={size} height={size}/>
                     </Link>
                 </div>
             </div>

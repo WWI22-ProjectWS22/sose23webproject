@@ -1,7 +1,7 @@
 import Link from "next/link";
 import fsPromises from 'fs/promises';
 import Image from "next/image";
-import path from 'path'
+import path from 'path';
 import {log} from "next/dist/server/typescript/utils";
 import { bodyid, metadata } from "./layout";
 import Productcard from "@/components/productcard";
