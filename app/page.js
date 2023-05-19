@@ -3,7 +3,7 @@ import fsPromises from 'fs/promises';
 import Image from "next/image";
 import path from 'path';
 import {log} from "next/dist/server/typescript/utils";
-import { bodyid, metadata } from "./layout";
+import { metadata } from "./layout";
 import Productcard from "@/components/productcard";
 import Pictogram from "@/components/pictogram";
 
@@ -37,7 +37,6 @@ export async function getProducts() {
 
 export default async function Home() {
   metadata.title = "Homepage";
-  bodyid.id = "homepage";
 
   let pictogram;
     await getPictogram()
