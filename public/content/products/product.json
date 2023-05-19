@@ -1,64 +1,54 @@
 {
     "entities":[
         {
-        "name": "Alleskönner",
-        "description": "Beschreibung der Entität 1",
-        "price": "100€"
+        "name": "Unser Klassiker",
+        "description": "Mit unserem Klassiker können Sie nur richtig liegen! Mit einem Hohlkörper aus edler Zartbitterschokolade mit 50% Fairtrade Kakao und einer Füllung von cremiger Alpen-Vollmilchschokolade steht dem süßen Genuss nichts mehr entgegen.",
+        "price": "michi stinkt"
         },
         {
-        "name": "Klassiker",
-        "description": "Beschreibung der Entität 2",
+        "name": "Unser Alleskönner",
+        "description": "Sie oder Ihr Freundeskreis sind wählerisch? Kein Problem für uns! Mit dieser Praline werden auch die Feinschmecker befriedigt. Durch einen etwas süßeren Hohlkörper mit geringerer Kakaotrockenmasse und einem Nougatkern als Füllung, sorgt diese Praline für eine Überraschung auf jeder Zunge.",
         "price": "200€"
         },
         {
-        "name": "Royale Praline",
-        "description": "Beschreibung der Entität 3",
+        "name": "Die Süße",
+        "description": "Lassen Sie sich durch dieses Goldstück die Woche versüßen! Sie erwartet ein bereits sehr süßer Hohlkörper, welcher neben edler Toblerone Schokolade durch Zugabe von Blütenhonig beim Anrichten der Kuvertüre entsteht. Auch die Füllung hat es in sich: Hier sorgen wir für eine versüßte Marzipanmasse, welche jeden Gaumen beglückt.",
         "price": "400€"
         },
         {
-        "name": "Süße",
-        "description": "Beschreibung der Entität 4",
+        "name": "Die Herzhafte",
+        "description": "Auch für den herzhaften Gaumen haben wir das passende Sortiment. Hierfür haben wir auf die hochwertige Schweizer Zartbitterschokolade zurückgegriffen. Als Füllung haben wir eine Haselnuss in dunkle Vollmilchschokolade eingebettet, um den herzhaften Schokoladengeschmack zu vervollständigen.",
         "price": "400€"
         },
         {
-        "name": "Alleskönner",
-        "description": "Beschreibung der Entität 1",
+        "name": "Unsere Kinderpraline",
+        "description": "Pralinengenuss gibt es nur für Erwachsene? Blödsinn! Durch die Wahl leckerer Alpen-Vollmilchschokolade, ergänzt mit einer Füllung aus einem Marshmallow in Zuckerwatteglasur, fängt jedes Kinderauge an zu leuchten.",
         "price": "100€"
         },
         {
-        "name": "Klassiker",
-        "description": "Beschreibung der Entität 2",
+        "name": "Die Streuselpraline",
+        "description": "Probieren Sie unsere köstliche Streuselpraline: zartschmelzende Schokolade umhüllt von knusprigen Streuseln. Eine perfekte Kombination aus Texturen, die Ihren Gaumen begeistern wird. Ein süßes Vergnügen, das Sie immer wieder genießen möchten.",
         "price": "200€"
         },
         {
-        "name": "Royale Praline",
-        "description": "Beschreibung der Entität 3",
+        "name": "Unser Marzipaner",
+        "description": "Genießen Sie den unvergleichlichen Geschmack unserer Marzipanpraline. Feinste Marzipanmasse umhüllt von zartschmelzender Schokolade verwöhnt Ihre Sinne. Ein Muss für alle Liebhaber von süßen Köstlichkeiten. Tauchen Sie ein in den puren Genuss.",
         "price": "400€"
         },
         {
-        "name": "Süße",
-        "description": "Beschreibung der Entität 4",
+        "name": "Nutflakes",
+        "description": "Probieren Sie unsere unwiderstehliche Nusspraline. Zartschmelzende Schokolade umhüllt eine köstliche Füllung aus knackigen Nüssen. Ein Genuss für alle Sinne, der Ihren Geschmackssinn verwöhnt. Tauchen Sie ein in den Nussreichtum dieser exquisiten Praline.",
         "price": "400€"
         },
         {
-        "name": "Alleskönner",
-        "description": "Beschreibung der Entität 1",
+        "name": "Likör Praline",
+        "description": "Genießen Sie den verführerischen Geschmack unserer Likörpraline. Vollmunidge Schokolade umgibt eine köstliche Füllung mit aromatischem Likör, der Ihre Sinne berauscht. Ein exquisites Geschmackserlebnis für Genießer, das Ihnen eine sinnliche Freude bereitet.",
         "price": "100€"
         },
         {
-        "name": "Klassiker",
-        "description": "Beschreibung der Entität 2",
+        "name": "Schnaps Praline",
+        "description": "Tauchen Sie ein in die abenteuerliche Welt unserer Schnapspraline. Hier verschmilzt feinste Schokolade mit einem Hauch von berauschendem Schnaps zu einem atemberaubenden Tanz auf Ihrer Zunge. Ein außergewöhnliches Geschmackserlebnis, das Ihre Sinne in Ekstase versetzt. Prost!",
         "price": "200€"
-        },
-        {
-        "name": "Royale Praline",
-        "description": "Beschreibung der Entität 3",
-        "price": "400€"
-        },
-        {
-        "name": "Süße",
-        "description": "Beschreibung der Entität 4",
-        "price": "400€"
         }
     ]
 }

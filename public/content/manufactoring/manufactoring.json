@@ -1,20 +1,28 @@
 {
     "entities":[
         {
-        "name": "Content1",
-        "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+        "name": "Hohlkörper gießen",
+        "content": "Über eine gesäuberte Kunststoffform wird die richtig temperierte Kuvertüre mit einem Schöpflöffel gegossen, bis jede Mulde gefüllt ist. Damit eventuelle Luftbläschen entweichen können, wird mit einer Winkelpalette darüber gestrichen und die Kuvertüre anschließend durch leichte Schläge noch etwas in die Form eingearbeitet."
         },
         {
-        "name": "Content2",
-        "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+        "name": "Kuvertüre abgießen",
+        "content": "Sollte die Praline keine extra Füllung erhalten, ist sie bereits fast fertig und die Kuvertüre muss nur noch auskühlen. Andernfalls wird das Kunststoffgehäuse nun umgedreht, sodass die Kuvertüre abfließen kann. Anschließend muss die Kuvertüre noch circa eine Stunde auskühlen."
         },
         {
-        "name": "Content3",
-        "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+        "name": "Hohlkörper befüllen",
+        "content": "Mithilfe eines Trichters oder Spritzbeutels wird nun vorsichtig die Füllung eingegossen. Hier muss auf saubere Arbeit geachtet werden, da sich die Hohlkörper andernfalls später nicht mehr schließen lassen. Nun muss die halbfertige Praline noch mindestens 8 Stunden an einem kühlen Ort (der Kühlschrank ist hier nicht die erste Wahl) fest werden."
         },
         {
-        "name": "Content4",
-        "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+        "name": "Verschließen",
+        "content": "Zum Verschließen die restliche Kuvertüre hacken, neu aufschmelzen und temperieren. Daraufhin wird jene zügig auf der Oberfläche der Hohlkörper verteilt und mit einer Winkelpalette ausgestrichen. Nach dem Abziehen von überschüssiger Kuvertüre und weiteren 2 Stunden abkühlen kann zum vorletzten Schritt übergegangen werden."
+        },
+        {
+        "name": "Ausklopfen",
+        "content": "Nun werden die fertigen Pralinen aus der Form geklopft. Hier ist allerdings große Vorsicht geboten, da die kostbaren Pralinen beim Rausfallen zerbrechen oder aber sich gegenseitig zerdrücken können. Darum müssen die herausgefallenen Pralinen sofort weggeräumt werden!"
+        },
+        {
+        "name": "Überziehen und Verzieren",
+        "content": "Zum Überziehen wird die Kuvertüre noch ein weiteres Mal erhitzt und die fertigen Pralinen mit einer Pralinen-Gabel eingetaucht. Nachdem sie dann sorgfältig abgetropft sind, werden sie zum Trocknen auf ein Backpapier gelegt, auf dem sie nun nach Belieben verziert werden. Ob Nüsse, Schokostücke, Streusel oder Blattgold: Die Kreativität kennt hier keine Grenzen…"
         }
     ]
 }

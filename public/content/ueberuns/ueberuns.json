@@ -2,28 +2,28 @@
     "entities":[
         {
         "name": "Kai Faßbinder",
-        "description": "Egal ob Weihnachten, Valentinstag oder einfach individuell! Treten Sie mit uns in Kontakt und wir suchen gemeinsam Ihre persönliche Verpackung aus!",
-        "position": "xxx"
+        "description": "Kai Faßbinder, geboren 1995, ist seit der Gründung unseres Unternehmens als Geschäftsführer tätig. Er studiert Wirtschaftsinformatik an der DHBW Heidenheim und kann auch auf eine mehrjährige Erfahrung als Selbstständiger zurückblicken. Als Geschäftsführer führt und verwaltet er unser Unternehmen.",
+        "position": "Straßenkehrer"
         },
         {
         "name": "Danilo Weber",
-        "description": "Unsere Konditoren haben bisher jede Praline in ihren Händen gehalten. Nicht zuletzt um jede einzelne zu einem einzigartigen Erlebnis zu machen!",
-        "position":"xxx"
+        "description": "Danilo Weber, geboren 1999, ist seit 2 Jahren in unserer Vertriebsabteilung tätig. Aufgrund seiner umfassenden vorhergehenden Erfahrungen im nationalen, als auch im internationalen Vertrieb werden Sie hier bestens beraten. Deshalb leitet er nun seit einem Jahr unsere Vertriebsabteilung und bringt sein Wissen in unser ganzes Vertriebsteam.",
+        "position":"It- Assistent"
         },
         {
         "name": "Felix Gebhardt",
-        "description": "Unsere Konditoren haben bisher jede Praline in ihren Händen gehalten. Nicht zuletzt um jede einzelne zu einem einzigartigen Erlebnis zu machen!",
-        "position": "xxx"
+        "description": "Felix Gebhardt, geboren 1998, ist seit rund einem Jahr als kaufmännischer Auszubildender, bei uns im Unternehmen angestellt. Aufgrund seiner Ausbildung assistiert er derzeit der Geschäftsführung.",
+        "position": "Boxer"
         },
         {
-        "name": "Michaela Ohmeyer",
-        "description": "Unsere Konditoren haben bisher jede Praline in ihren Händen gehalten. Nicht zuletzt um jede einzelne zu einem einzigartigen Erlebnis zu machen!",
-        "position": "xxx"
+        "name": "Michael Jordan",
+        "description": "Michaela Ohmayer, geboren 2003, ist seit 3 Monaten als Abteilungsleiterin des Designs in unserem Unternehmen tätig. Mehrere Jahre kreative Gestaltung von Präsentationen, ein Händchen für das Zusammenspiel der Farben und ein Auge für die Moderne qualifizieren sie als Design-Abteilungsleiterin.",
+        "position": "Schuhhersteller"
         },
         {
         "name": "Luca Dvorak",
-        "description": "Unsere Konditoren haben bisher jede Praline in ihren Händen gehalten. Nicht zuletzt um jede einzelne zu einem einzigartigen Erlebnis zu machen!",
-        "position": "xxx"
+        "description": "Luca Dvorak, geboren 2002, ist seit der Gründung des Unternehmens als ausgebildeter und beurkundeter Chocolatier in der Konfiserie RCD tätig. Seine jahrelange Erfahrung sowie Auszeichnungen für Spitzenqualität in sämtlichen Konfiserien zeichnen ihn in unserem Unternehmen besonders aus.",
+        "position": "Bauer"
         }
     ]   
 }
