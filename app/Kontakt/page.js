@@ -13,7 +13,7 @@ export default async function Kontakt() {
             <div className={"container py-3"} id={"pageBackground"}>
                 <div className={"row justify-content-center"}>
                 <div className={"col-md-4"}>
-                    <form id={"meinFormular"}>
+                    <form method={"POST"} action={"/api/form"} id={"meinFormular"}>
                         <legend>Kontakt</legend>
                         <div className={"form-group row"}>
                             <label for={"vName"}> Vorname:</label>
