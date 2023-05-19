@@ -20,10 +20,7 @@ export default function RootLayout({children}) {
     metadata.title = "test";
   return (
       <html lang={"de"}>
-        <head>
-          <meta name={"color-scheme"} content={"light dark"}/>
-        </head>
-        <body id = {bodyid.id}>
+        <body>
           <Header/>
           <SiderBar/>
           {children}

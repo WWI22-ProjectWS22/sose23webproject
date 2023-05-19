@@ -1,109 +1,101 @@
-@media (prefers-color-scheme: light) {
-    
-   
-      
+body {
+    background-color: #1e1614;
+    background-size: cover;
+    color: white;
 }
 
-@media (prefers-color-scheme: dark) {
+#headerBackground {
+    background-color: #141414;
+}
 
-    body {
-        background-color: #1e1614;
-        background-size: cover;
-        color: white;
-    }
+#footerBackground {
+    background-color: #141414;
+}
 
-    #headerBackground {
-        background-color: #141414;
-    }
+.navbar-nav {
+    --bs-nav-link-color: rgba(0, 0, 0, 0.55);
+    --bs-nav-link-hover-color: rgba(0, 0, 0, 0.7);
+}
 
-    #footerBackground {
-        background-color: #141414;
-    }
-
-    .navbar-nav {
-        --bs-nav-link-color: rgba(0, 0, 0, 0.55);
-        --bs-nav-link-hover-color: rgba(0, 0, 0, 0.7);
-    }
-
-    .navbar {
-        box-shadow: inset 0 0 0 1px #d3a41b;
-      }
-
-    #logo {
-        box-shadow: 0 0 0 1px #d3a41b;
-    }
-
-   #footerImg {
-       box-shadow: 0 0 0 1px #d3a41b;
-   }
-
-   #stickyNavbar {
-    position: absolute; 
-    left: 0; right: 0; margin-left: auto; margin-right: auto;
-    z-index: 1; 
-   }
-
-   #headerUnderlay {
-    width: 100%;
-    height: 85px;
-    background-color:  #141414;
-   }
-
-   #stylingLine {
-    width: 100%;
-    height: 6px;
+.navbar {
     box-shadow: inset 0 0 0 1px #d3a41b;
-    background-color: white;
-   }
-
-   #impressumsLink {
-    color: white;
-    }
-    
-    #impressumsLink:visited {
-    color: white;
     }
 
-   .card {
-    background-color: rgba(255, 255, 255, 0.4);
-   }
-
-   #goldenLine{
-    width: 100%;
-    background-color: rgba(211, 164, 27, 0.4);
-    height: 1px;
-   }
-
-   #productCard {
-    background-color: #342623;
-   }
-
-   #pageBackground {
-    background-color: #44322E;
-   }
-
-   #homepageFakeButton {
-    background-color: #342623;
-   }
-
-   #homepageLink {
-    text-decoration: none;
-    color: white;
-   }
-
-   #navbarFakeButton {
-    background-color: white;
-    color: rgba(0, 0, 0, 0.55);
-    box-shadow: inset 0 0 0 1px #d3a41b;
-   }
-
-   #pictogram{
-    background-color: #44322E;
-   }
-
-   #contactform {
+#logo {
     box-shadow: 0 0 0 1px #d3a41b;
-    background-color: white;
-    color: rgba(0, 0, 0, 0.55);
-   }
 }
+
+#footerImg {
+    box-shadow: 0 0 0 1px #d3a41b;
+}
+
+#stickyNavbar {
+position: absolute; 
+left: 0; right: 0; margin-left: auto; margin-right: auto;
+z-index: 1; 
+}
+
+#headerUnderlay {
+width: 100%;
+height: 85px;
+background-color:  #141414;
+}
+
+#stylingLine {
+width: 100%;
+height: 6px;
+box-shadow: inset 0 0 0 1px #d3a41b;
+background-color: white;
+}
+
+#impressumsLink {
+color: white;
+}
+
+#impressumsLink:visited {
+color: white;
+}
+
+.card {
+background-color: rgba(255, 255, 255, 0.4);
+}
+
+#goldenLine{
+width: 100%;
+background-color: rgba(211, 164, 27, 0.4);
+height: 1px;
+}
+
+#productCard {
+background-color: #342623;
+}
+
+#pageBackground {
+background-color: #44322E;
+}
+
+#homepageFakeButton {
+background-color: #342623;
+}
+
+#homepageLink {
+text-decoration: none;
+color: white;
+}
+
+#navbarFakeButton {
+background-color: white;
+color: rgba(0, 0, 0, 0.55);
+box-shadow: inset 0 0 0 1px #d3a41b;
+}
+
+#pictogram{
+background-color: #44322E;
+}
+
+#contactform {
+box-shadow: 0 0 0 1px #d3a41b;
+background-color: white;
+color: rgba(0, 0, 0, 0.55);
+}
+
