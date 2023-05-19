@@ -12,10 +12,6 @@ export const metadata = {
   description: 'SoSe23 WebProject',
 }
 
-export const bodyid ={
-  id: 'body',
-}
-
 export default function RootLayout({children}) {
     metadata.title = "test";
   return (
