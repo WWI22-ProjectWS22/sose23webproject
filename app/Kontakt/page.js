@@ -4,6 +4,19 @@ import SiderBar from "@/components/siderBar";
 import {metadata} from "@/app/layout";
 import FormButton from '@/components/formbutton';
 import Image from 'next/image';
+import fs from 'fs';
+import { v4 as uuidv4 } from 'uuid';
+
+export async function handler(data) {
+    const form = JSON.stringify(data);
+    const title = uuidv4();
+    const filePath = path.join(process.cwd(), '/public/form',title+".json" );
+    fs.writeFileSync(filePath, form, 'utf8');
+
+    return (
+         "Vielen Dank für Ihre Anfrage"
+    )
+  }
 
 export default async function Kontakt() {
     metadata.title="Kontakt";

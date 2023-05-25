@@ -143,7 +143,7 @@ export default async function Home() {
           </div>
           <div className={"col d-none d-md-block mb-3"}>
             <Image
-              src={"/images/ueberuns/Michaela Ohmeyer.webp"}
+              src={"/images/ueberuns/Michaela Ohmayer.webp"}
               className={"img-fluid"}
               alt={"Michaela Ohmeyer"}
               width={100}
