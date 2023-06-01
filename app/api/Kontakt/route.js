@@ -1,10 +1,11 @@
-import { handler } from '@/app/Kontakt/page';
+import { handler } from '@/components/contactPageHandler';
 
 export async function POST(request){
+  
     const formData = await request.formData();
-    const email = formData.get('email');
-    const name = formData.get('name');
-    const content = formData.get('content');
+        const name = formData.get('name');
+        const content = formData.get('content');
+        const email = formData.get('email');
 
     const timestamp = new Date();
     const data ={
@@ -14,10 +15,11 @@ export async function POST(request){
         timestamp: timestamp
     };
 
-    const answer = await handler(data);
+    await handler(data);
+    
+    return new Response('', {
+        status: 200
+      });
 
-    return new Response(
-        answer
-    );
 
 }

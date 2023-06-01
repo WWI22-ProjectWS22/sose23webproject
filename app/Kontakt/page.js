@@ -1,25 +1,31 @@
-import fsPromises from 'fs/promises';
-import path from 'path';
+'use client';
 import SiderBar from "@/components/siderBar";
 import {metadata} from "@/app/layout";
-import FormButton from '@/components/formbutton';
 import Image from 'next/image';
-import fs from 'fs';
-import { v4 as uuidv4 } from 'uuid';
-
-export async function handler(data) {
-    const form = JSON.stringify(data);
-    const title = uuidv4();
-    const filePath = path.join(process.cwd(), '/public/form',title+".json" );
-    fs.writeFileSync(filePath, form, 'utf8');
-
-    return (
-         "Vielen Dank für Ihre Anfrage"
-    )
-  }
 
 export default async function Kontakt() {
     metadata.title="Kontakt";
+
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+
+        var form = document.getElementById("meinFormular");
+        const formData = new FormData(form);
+        
+        const endpoint = '/api/Kontakt';
+     
+        const options = {
+          method: 'POST',
+          body: formData
+        };
+     
+        await fetch(endpoint, options);
+
+        form.reset();
+
+        const response = document.getElementById("responseMessage");
+        response.innerHTML = "Vielen Dank für Ihre Anfrage";
+      };
 
     return (
             <>
@@ -32,7 +38,7 @@ export default async function Kontakt() {
                                 <div id={"goldenLine"}></div>
                             </div>
 
-                            <form  method={"POST"} action={"/api/Kontakt"} id={"meinFormular"}>
+                            <form onSubmit={handleSubmit} id={"meinFormular"}>
                                 <div className={"form-group row mt-3 mb-3"}>
                                     <input type={"text"} name={"name"} placeholder={"Name"} className={"rounded-pill text-center"} id={"contactform"}/>
                                 </div>
@@ -43,7 +49,7 @@ export default async function Kontakt() {
                                     <textarea type={"text"} name={"content"} placeholder={"Deine Nachricht an uns"} className={"rounded text-center"} id={"contactform"} rows={"8"} cols={"26"} maxlength={"700"}/>
                                 </div>
                                 <div className={"form-group row mb-3"}>
-                                    <button className={"rounded-pill mx-auto"} id={"contactform"} type={"submit"}>senden</button>
+                                    <button className={"rounded-pill mx-auto"} id={"contactform"} type={"submit"} data-bs-toggle={"modal"} data-bs-target={"#responseModal"}>senden</button>
                                 </div>
                             </form>
 
@@ -65,6 +71,20 @@ export default async function Kontakt() {
                                 width={2000}
                                 height={2000}
                                 />
+                            </div>
+
+                            <div className={"modal fade"} id={"responseModal"} data-bs-backdrop={"static"} data-bs-keyboard={"false"} tabindex={"-1"} aria-hidden={"true"}>
+                                <div className={"modal-dialog modal-dialog-centered"}>
+                                    <div className={"modal-content"}>
+                                        <div className={"modal-header d-flex justify-content-center align-items-center"}>
+                                            <h5 className={"modal-title text-center"} id={"responseModalLabel"} style={{color: "black"}}>Response Status</h5>
+                                            <button type={"button"} class={"btn-close"} data-bs-dismiss={"modal"} aria-label={"Close"}></button>
+                                        </div>
+                                        <div className={"modal-body text-center align-self-center"}>
+                                            <p id={"responseMessage"} style={{color: "black"}}></p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                         </div>

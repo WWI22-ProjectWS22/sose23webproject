@@ -13,7 +13,7 @@ export const metadata = {
 }
 
 export default function RootLayout({children}) {
-    metadata.title = "test";
+    metadata.title = "Homepage";
   return (
       <html lang={"de"}>
         <body>
