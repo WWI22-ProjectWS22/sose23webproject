@@ -49,12 +49,7 @@
         "name": "Pistazienkugeln",
         "description": "Tauchen Sie ein in die abenteuerliche Welt unserer Schnapspraline. Hier verschmilzt feinste Schokolade mit einem Hauch von berauschendem Schnaps zu einem atemberaubenden Tanz auf Ihrer Zunge. Ein außergewöhnliches Geschmackserlebnis, das Ihre Sinne in Ekstase versetzt. Prost!",
         "price": "200€"
-        },
-        {
-            "name": "Schnaps Praline",
-            "description": "Tauchen Sie ein in die abenteuerliche Welt unserer Schnapspraline. Hier verschmilzt feinste Schokolade mit einem Hauch von berauschendem Schnaps zu einem atemberaubenden Tanz auf Ihrer Zunge. Ein außergewöhnliches Geschmackserlebnis, das Ihre Sinne in Ekstase versetzt. Prost!",
-            "price": "200€"
-            }
+        }
     ]
 }
   
