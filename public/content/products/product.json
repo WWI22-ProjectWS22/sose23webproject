@@ -2,52 +2,52 @@
     "entities":[
         {
         "name": "Heidelbeerpralinen",
-        "description": "Mit unserem Klassiker können Sie nur richtig liegen! Mit einem Hohlkörper aus edler Zartbitterschokolade mit 50% Fairtrade Kakao und einer Füllung von cremiger Alpen-Vollmilchschokolade steht dem süßen Genuss nichts mehr entgegen.",
+        "description": "Durch unsere fruchtige Praline spüren Sie sofort eine Sommerfrische.",
         "price": "300€"
         },
         {
         "name": "Rahmwürfel",
-        "description": "Sie oder Ihr Freundeskreis sind wählerisch? Kein Problem für uns! Mit dieser Praline werden auch die Feinschmecker befriedigt. Durch einen etwas süßeren Hohlkörper mit geringerer Kakaotrockenmasse und einem Nougatkern als Füllung, sorgt diese Praline für eine Überraschung auf jeder Zunge.",
+        "description": "Unser Rahmwürfel ist ein Klassiker und vereint verschiedene Schokoladensorten.",
         "price": "200€"
         },
         {
         "name": "Sahnetrüffel",
-        "description": "Lassen Sie sich durch dieses Goldstück die Woche versüßen! Sie erwartet ein bereits sehr süßer Hohlkörper, welcher neben edler Toblerone Schokolade durch Zugabe von Blütenhonig beim Anrichten der Kuvertüre entsteht. Auch die Füllung hat es in sich: Hier sorgen wir für eine versüßte Marzipanmasse, welche jeden Gaumen beglückt.",
+        "description": "Bei einem wählerischen Geschmack sind unsere Sahnetrüffel genau richtig, denn sie enthalten nur klassische Zutaten.",
         "price": "400€"
         },
         {
         "name": "Karamell mit Fleur de Sel",
-        "description": "Auch für den herzhaften Gaumen haben wir das passende Sortiment. Hierfür haben wir auf die hochwertige Schweizer Zartbitterschokolade zurückgegriffen. Als Füllung haben wir eine Haselnuss in dunkle Vollmilchschokolade eingebettet, um den herzhaften Schokoladengeschmack zu vervollständigen.",
+        "description": "Sie stellt eine perfekte Verbindung zwischen Süßem und Salzigem dar und sorgt so für eine kulinarische Überraschung.",
         "price": "400€"
         },
         {
         "name": "Rote Baileyherzen",
-        "description": "Pralinengenuss gibt es nur für Erwachsene? Blödsinn! Durch die Wahl leckerer Alpen-Vollmilchschokolade, ergänzt mit einer Füllung aus einem Marshmallow in Zuckerwatteglasur, fängt jedes Kinderauge an zu leuchten.",
+        "description": "Von außen sowie von innen verführerisch. Eine cremige Füllung aus Bailey macht die Herzpraline zu einem perfekten Geschenk für Ihre Liebsten.",
         "price": "100€"
         },
         {
         "name": "Lebkuchentrüffel",
-        "description": "Probieren Sie unsere köstliche Streuselpraline: zartschmelzende Schokolade umhüllt von knusprigen Streuseln. Eine perfekte Kombination aus Texturen, die Ihren Gaumen begeistern wird. Ein süßes Vergnügen, das Sie immer wieder genießen möchten.",
+        "description": "Unsere Lebkuchentrüffeln fangen die Vorfreude auf die kalte Jahreszeit ein und versetzt Sie direkt in Weihnachtsstimmung.",
         "price": "200€"
         },
         {
         "name": "Eierlikörkugeln",
-        "description": "Genießen Sie den unvergleichlichen Geschmack unserer Marzipanpraline. Feinste Marzipanmasse umhüllt von zartschmelzender Schokolade verwöhnt Ihre Sinne. Ein Muss für alle Liebhaber von süßen Köstlichkeiten. Tauchen Sie ein in den puren Genuss.",
+        "description": "Der Eierlikör verleiht der Praline einen unwiderstehlichen Frischekick.",
         "price": "400€"
         },
         {
         "name": "Mandelsplitter",
-        "description": "Probieren Sie unsere unwiderstehliche Nusspraline. Zartschmelzende Schokolade umhüllt eine köstliche Füllung aus knackigen Nüssen. Ein Genuss für alle Sinne, der Ihren Geschmackssinn verwöhnt. Tauchen Sie ein in den Nussreichtum dieser exquisiten Praline.",
+        "description": "Die Mandelsplitter versetzen Sie auf das warme Mallorca, wo viele Mandelbäume zur Frühlingszeit in wunderbarer Blüte erstrahlen.",
         "price": "400€"
         },
         {
         "name": "Nugatpralinen",
-        "description": "Genießen Sie den verführerischen Geschmack unserer Likörpraline. Vollmunidge Schokolade umgibt eine köstliche Füllung mit aromatischem Likör, der Ihre Sinne berauscht. Ein exquisites Geschmackserlebnis für Genießer, das Ihnen eine sinnliche Freude bereitet.",
+        "description": "Marzipan, kandierte Orangenschale und Nugat verleihen der Praline einen exquisiten Geschmack.",
         "price": "100€"
         },
         {
         "name": "Pistazienkugeln",
-        "description": "Tauchen Sie ein in die abenteuerliche Welt unserer Schnapspraline. Hier verschmilzt feinste Schokolade mit einem Hauch von berauschendem Schnaps zu einem atemberaubenden Tanz auf Ihrer Zunge. Ein außergewöhnliches Geschmackserlebnis, das Ihre Sinne in Ekstase versetzt. Prost!",
+        "description": "Eine perfekte Kombination aus Schokolade und Pistazien macht die Pistazienkugeln zu einem wahren Erlebnis.",
         "price": "200€"
         }
     ]
