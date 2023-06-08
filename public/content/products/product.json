@@ -3,52 +3,52 @@
         {
         "name": "Heidelbeerpralinen",
         "description": "Durch unsere fruchtige Praline spüren Sie sofort eine Sommerfrische.",
-        "price": "3,00 €/Stück"
+        "price": "6,00 €/100g"
         },
         {
         "name": "Rahmwürfel",
         "description": "Unser Rahmwürfel ist ein Klassiker und vereint verschiedene Schokoladensorten.",
-        "price": "2,00 €/Stück"
+        "price": "5,50 €/100g"
         },
         {
         "name": "Sahnetrüffel",
         "description": "Bei einem wählerischen Geschmack sind unsere Sahnetrüffel genau richtig, denn sie enthalten nur klassische Zutaten.",
-        "price": "2,00 €/Stück"
+        "price": "5,50 €/100g"
         },
         {
         "name": "Karamell mit Fleur de Sel",
         "description": "Sie stellt eine perfekte Verbindung zwischen Süßem und Salzigem dar und sorgt so für eine kulinarische Überraschung.",
-        "price": "4,50 €/Stück"
+        "price": "9,00 €/100g"
         },
         {
         "name": "Rote Baileysherzen",
         "description": "Von außen sowie von innen verführerisch. Eine cremige Füllung aus Baileys macht die Herzpraline zu einem perfekten Geschenk für Ihre Liebsten.",
-        "price": "4,00 €/Stück"
+        "price": "8,50 €/100g"
         },
         {
         "name": "Lebkuchentrüffel",
         "description": "Unsere Lebkuchentrüffeln fangen die Vorfreude auf die kalte Jahreszeit ein und versetzt Sie direkt in Weihnachtsstimmung.",
-        "price": "3,50 €/Stück"
+        "price": "7,50 €/100g"
         },
         {
         "name": "Eierlikörkugeln",
         "description": "Der Eierlikör verleiht der Praline einen unwiderstehlichen Frischekick.",
-        "price": "4,00 €/Stück"
+        "price": "8,50 €/100g"
         },
         {
         "name": "Mandelsplitter",
         "description": "Die Mandelsplitter versetzen Sie auf das warme Mallorca, wo viele Mandelbäume zur Frühlingszeit in wunderbarer Blüte erstrahlen.",
-        "price": "3,00 €/Stück"
+        "price": "6,50 €/100g"
         },
         {
         "name": "Nugatpralinen",
         "description": "Marzipan, kandierte Orangenschale und Nugat verleihen der Praline einen exquisiten Geschmack.",
-        "price": "5,00 €/Stück"
+        "price": "9,50 €/100g"
         },
         {
         "name": "Pistazienkugeln",
         "description": "Eine perfekte Kombination aus Schokolade und Pistazien macht die Pistazienkugeln zu einem wahren Erlebnis.",
-        "price": "3,00 €/Stück"
+        "price": "7,00 €/100g"
         }
     ]
 }
