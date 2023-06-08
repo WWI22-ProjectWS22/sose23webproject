@@ -1,7 +1,7 @@
 {
     "entities":[
         {
-        "name": "Sahnetrüffel",
+        "name": "Heidelbeerpralinen",
         "description": "Mit unserem Klassiker können Sie nur richtig liegen! Mit einem Hohlkörper aus edler Zartbitterschokolade mit 50% Fairtrade Kakao und einer Füllung von cremiger Alpen-Vollmilchschokolade steht dem süßen Genuss nichts mehr entgegen.",
         "price": "300€"
         },
@@ -11,7 +11,7 @@
         "price": "200€"
         },
         {
-        "name": "Heidelbeerpralinen",
+        "name": "Sahnetrüffel",
         "description": "Lassen Sie sich durch dieses Goldstück die Woche versüßen! Sie erwartet ein bereits sehr süßer Hohlkörper, welcher neben edler Toblerone Schokolade durch Zugabe von Blütenhonig beim Anrichten der Kuvertüre entsteht. Auch die Füllung hat es in sich: Hier sorgen wir für eine versüßte Marzipanmasse, welche jeden Gaumen beglückt.",
         "price": "400€"
         },
