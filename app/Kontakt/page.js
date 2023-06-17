@@ -1,10 +1,8 @@
 'use client';
 import SiderBar from "@/components/siderBar";
-import {metadata} from "@/app/layout";
 import Image from 'next/image';
 
 export default async function Kontakt() {
-    metadata.title="Kontakt";
 
     const handleSubmit = async (event) => {
         event.preventDefault();
@@ -29,7 +27,7 @@ export default async function Kontakt() {
 
     return (
             <>
-                <title>{metadata.title}</title>
+                <title>Kontakt</title>
                     <div className={"container py-3"} id={"pageBackground"}>
                         <div className={"row justify-content-center"}>
                         <div className={"col-md-8"}>
