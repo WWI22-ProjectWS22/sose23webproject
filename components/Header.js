@@ -8,7 +8,9 @@ export default function Header() {
                     <div className={"container pt-3 pb-3 pb-md-0"}>
                         <div className={"row row-cols-2 row-cols-md-3"}>
                             <div className={"col-4 col-md-1 d-flex justify-content-center"}>
-                                <Image id={"logo"} className={"img-fluid rounded"} src={"/images/root/RCDlogoWT.webp"} alt={"Logo"} width={100}   height={100}/>
+                                <Link href={"/"}>
+                                    <Image id={"logo"} className={"img-fluid rounded"} src={"/images/root/RCDlogoWT.webp"} alt={"Logo"} width={100}   height={100}/>
+                                </Link>
                             </div>
                             <div className={"col"}>
                                 <h3>Royale Chocolate <br/> Design</h3>
@@ -63,7 +65,7 @@ export default function Header() {
                         </Link>
                     </div> 
                     <div className={"col"}>
-                        <Link href={"/uberuns"} id={"homepageLink"}>
+                        <Link href={"/Uberuns"} id={"homepageLink"}>
                         <div className={"card mb-3 rounded-pill"} id={"navbarFakeButton"}>
                             <h4 className={"my-0 fw-normal"}>Überuns</h4>
                         </div>
