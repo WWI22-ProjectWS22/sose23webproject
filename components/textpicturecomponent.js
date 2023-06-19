@@ -8,7 +8,7 @@ export default function TextPictureComponent({ entity, textOrder, imgOrder }) {
       <div className={"row row-cols-1 row-cols-md-2"}>
         <div className={"col-md-4 mb-3 " + imgOrder}>
         <Image
-              src={"/images/manufactoring/" + entity.name + ".webp"}
+              src={"/images/manufactoring/" + entity.imgName + ".webp"}
               className={"img-fluid"}
               alt={entity.name}
               width={100}
