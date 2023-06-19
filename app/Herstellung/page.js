@@ -45,6 +45,7 @@ return (
         <div className={"container py-3"} id={"pageBackground"}>
         <div id={"goldenLine"} className={"mb-3"}></div>
         <div className={""}>
+            <h5 className={"text-center"}>{data.props.title}</h5>
             <p>{data.props.content}</p>
         </div>
         

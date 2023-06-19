@@ -123,7 +123,7 @@ export default async function Home() {
           </div>
           <div className={"col mb-3"}>
             <Image
-              src={"/images/ueberuns/Kai Faßbinder.webp"}
+              src={"/images/ueberuns/Kai Fassbinder.webp"}
               className={"img-fluid"}
               alt={"Kai Faßbinder"}
               width={100}
