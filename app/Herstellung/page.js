@@ -1,6 +1,5 @@
 import fsPromises from 'fs/promises';
 import path from 'path';
-import {log} from "next/dist/server/typescript/utils";
 import TextPictureComponent from '@/components/textpicturecomponent';
 import {metadata} from "@/app/layout";
 
@@ -44,7 +43,7 @@ return (
         <title>{metadata.title}</title>
         <div className={"container py-3"} id={"pageBackground"}>
         <div id={"goldenLine"} className={"mb-3"}></div>
-        <div className={""}>
+        <div className={"text-center"}>
             <h5 className={"text-center"}>{data.props.title}</h5>
             <p>{data.props.content}</p>
         </div>

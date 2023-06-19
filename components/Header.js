@@ -49,7 +49,7 @@ export default function Header() {
                 </div>
                 <div className={"d-inline d-md-block"} id={"headerUnderlay"}></div>
 
-                <div className={"row row-cols-1 d-md-none mt-3 text-center"}>
+                <div className={"row row-cols-1 d-md-none px-3 mt-3 text-center"}>
                     <div className={"col"}>
                         <Link href={"/Produkte"} id={"homepageLink"}>
                         <div className={"card mb-3 rounded-pill"} id={"navbarFakeButton"}>

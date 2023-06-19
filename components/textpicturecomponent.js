@@ -1,11 +1,10 @@
-import Link from "next/link";
 import Image from "next/image";
 
 export default function TextPictureComponent({ entity, textOrder, imgOrder }) {
     return (
     <>
      <div id={"goldenLine"} className={"mb-3"}></div>
-      <div className={"row row-cols-1 row-cols-md-2"}>
+      <div className={"row row-cols-1 row-cols-md-2 text-center"}>
         <div className={"col-md-4 mb-3 " + imgOrder}>
         <Image
               src={"/images/manufactoring/" + entity.imgName + ".webp"}
