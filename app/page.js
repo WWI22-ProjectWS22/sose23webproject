@@ -2,7 +2,6 @@ import Link from "next/link";
 import fsPromises from 'fs/promises';
 import Image from "next/image";
 import path from 'path';
-import {log} from "next/dist/server/typescript/utils";
 import { metadata } from "./layout";
 import Productcard from "@/components/productcard";
 import Pictogram from "@/components/pictogram";
@@ -47,8 +46,6 @@ export default async function Home() {
   let entities;
     await getProducts()
     .then((response) => (entities = response));
-
-    const counter = entities.amount;
     const entityList = entities.props.entities.slice(0, 3);
 
 
@@ -57,6 +54,7 @@ export default async function Home() {
       <div className={"pb-3"} id={"headerBackground"}>
       <Image
         src={"/images/root/PlaceholderVideo.png"}
+        alt={"landingImg"}
         className={"img-fluid w-100"}
         width={100}
         height={100}
@@ -74,6 +72,7 @@ export default async function Home() {
       <div className={"row"}>
       <Image
               src={"/images/root/cutoff.svg"}
+              alt={"cutoff"}
               className={"col-12 img-fluid"}
               width={100}
               height={100}
@@ -150,7 +149,16 @@ export default async function Home() {
               height={100}
               style={{borderRadius: "50%"}}
             />
-          </div>
+          </div><div className={"col col-12 col-md-6 d-block d-md-none justify-content-center mb-3"}>
+                <Image
+                    src={"/images/ueberuns/michaelaOhmayer.webp"}
+                    className={"img-fluid"}
+                    alt={"Michaela Ohmeyer"}
+                    width={100}
+                    height={100}
+                    style={{borderRadius: "50%"}}
+                />
+            </div>
         </div>
       </div>
     </>
