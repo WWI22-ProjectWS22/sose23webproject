@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Impressum() {
     metadata.title = "Impressum";
     return (
-       <>
+       <div className={"container py-3"} id={"pageBackground"}>
            <div className="row row-cols-1 row-cols-md-2">
                <div className="col-12 col-md-6 ">
                    <h3>Angaben zum Betreiber:</h3>
@@ -13,7 +13,7 @@ export default function Impressum() {
                        89518 Heidenheim an der Brenz<br/>
                        Deutschland<br/><br/>
 
-                       <a href="mailto:service@rcd.de">service@rcd.de</a><br/>
+                       <Link href={"mailto:service@rcd.de"} id={"impressumsLink"}>service@rcd.de</Link><br/>
                        +49 1234 7654321<br/>
                    </address>
                </div>
@@ -84,8 +84,8 @@ export default function Impressum() {
                unverlangten Zusendung von Werbeinformationen,
                etwa durch Spam-Mails, vor.
                <br/><br/>
-               Impressum vom <Link href={"https://www.impressum-generator.de"}>Impressum Generator</Link> der <Link href={"https://www.kanzlei-hasselbach.de/"}>Kanzlei
+               Impressum vom <Link href={"https://www.impressum-generator.de"} id={"impressumsLink"}>Impressum Generator</Link> der <Link href={"https://www.kanzlei-hasselbach.de/"} id={"impressumsLink"}>Kanzlei
                Hasselbach, Rechtsanwälte für Arbeitsrecht und Familienrecht</Link>
-               </>
+               </div>
     );
 }
