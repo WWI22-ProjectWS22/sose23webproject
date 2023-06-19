@@ -1,15 +1,14 @@
 body {
-    background-color: #1e1614;
-    background-size: cover;
-    color: white;
+    background-color: #1e1614 !important;
+    background-size: cover !important;
+    color: white !important;
 }
 
 #headerBackground {
-    background-color: #141414;
+    background-color: #141414 !important;
 }
-
 #footerBackground {
-    background-color: #141414;
+    background-color: #141414 !important;
 }
 
 .navbar-nav {
@@ -30,9 +29,9 @@ body {
 }
 
 #stickyNavbar {
-position: absolute; 
+position: absolute;
 left: 0; right: 0; margin-left: auto; margin-right: auto;
-z-index: 1; 
+z-index: 1;
 }
 
 #headerUnderlay {

@@ -17,13 +17,13 @@ export default function SiderBar(){
             </nav>
             <div className={"collapse position-fixed end-0 top-50 translate-middle-y mx-4 z-1"} id={"navbarToggleExternalContent"}>
                 <div className="nav flex-column bg-light rounded-pill" id="stickyIconBar">
-                    <Link className="nav-link my-1" href="#">
+                    <Link className="nav-link my-1" href="/Produkte">
                         <Image src="/images/root/icons/Shopping Cart 1.svg" alt="Icon" width={size} height={size}/>
                     </Link>
-                    <Link className="nav-link my-1" href="#">
+                    <Link className="nav-link my-1" href="/Kontakt">
                         <Image src="/images/root/icons/Mail Sign At.svg" alt="Icon" width={size} height={size}/>
                     </Link>
-                    <Link className="nav-link my-1" href="#">
+                    <Link className="nav-link my-1" href="/">
                         <Image src="/images/root/icons/Interface Alert Alarm Bell 1.svg" alt="Icon" width={size} height={size}/>
                     </Link>
                 </div>
