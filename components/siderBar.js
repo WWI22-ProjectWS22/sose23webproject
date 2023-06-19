@@ -6,7 +6,7 @@ export default function SiderBar(){
     return(
         <>
 
-            <nav className={"navbar navbar-dark bg-dark d-md-none position-fixed end-0 bottom-0 translate-middle-y z-1 rounded-4 mx-4"}>
+            <nav className={"navbar navbar-dark bg-dark d-md-none position-fixed end-0 bottom-0 translate-middle-y z-1 rounded-4 mx-4"} id={"sideBarButton"}>
                 <div className={"container-fluid"}>
                     <button className={"navbar-toggler"} type={"button"} data-bs-toggle={"collapse"}
                             data-bs-target={"#navbarToggleExternalContent"} aria-controls={"navbarToggleExternalContent"}
@@ -28,7 +28,6 @@ export default function SiderBar(){
                     </Link>
                 </div>
             </div>
-
 
             <div className="position-fixed end-0 top-50 translate-middle-y d-none d-md-block z-1">
                 <div className="nav flex-column bg-light rounded-pill mx-4" id="stickyIconBar">

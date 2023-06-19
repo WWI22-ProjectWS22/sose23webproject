@@ -53,11 +53,12 @@ export default async function Home() {
     <>
       <div className={"pb-3"} id={"headerBackground"}>
       <Image
-        src={"/images/root/PlaceholderVideo.png"}
+        src={"/images/root/pralinenHintergrund1.webp"}
         alt={"landingImg"}
-        className={"img-fluid w-100"}
-        width={100}
-        height={100}
+        className={"img-fluid mx-auto"}
+        width={1000}
+        height={1000}
+        style={{width: "100%"}}
       />
       </div>
 
