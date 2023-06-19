@@ -2,7 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function TextPictureComponent({ entity, textOrder, imgOrder }) {
-    console.log(entity)
     return (
     <>
      <div id={"goldenLine"} className={"mb-3"}></div>
