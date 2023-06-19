@@ -65,7 +65,7 @@ export default function Header() {
                         </Link>
                     </div> 
                     <div className={"col"}>
-                        <Link href={"/Uberuns"} id={"homepageLink"}>
+                        <Link href={"/Ueberuns"} id={"homepageLink"}>
                         <div className={"card mb-3 rounded-pill"} id={"navbarFakeButton"}>
                             <h4 className={"my-0 fw-normal"}>Überuns</h4>
                         </div>
